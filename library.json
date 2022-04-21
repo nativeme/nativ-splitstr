@@ -1,0 +1,37 @@
+{
+    "name": "nativ-splitstr",
+    "version": "1.0.0",
+    "description": "Personal micro library for string splitting, mainly for usage in arduino framework. Should work everywhere.",
+    "keywords": "String, split, const char*",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/nativeme/nativ-splitstr.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Łukasz Kaniak",
+        "email": "lukaszkaniak@gmail.com",
+        "url": "https://github.com/nativeme/",
+        "maintainer": true
+      }
+    ],
+
+    "export" : {
+        "exclude":
+        [
+          ".vdcode",
+          "*.ps1",
+          ".src/main.cpp",
+          "platformio.ini",
+          ".test"
+        ]
+    },
+
+    "license": "MIT",
+    "homepage": "https://github.com/nativeme/nativ-splitstr.git",
+    "dependencies": {},
+    "frameworks": "*",
+    "platforms": "*"
+  }
