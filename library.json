@@ -2,7 +2,7 @@
     "name": "nativ-splitstr",
     "version": "1.0.0",
     "description": "Personal micro library for string splitting, mainly for usage in arduino framework. Should work everywhere.",
-    "keywords": "String, split, const char*",
+    "keywords": "String, split, const char",
     "repository":
     {
       "type": "git",

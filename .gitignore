@@ -6,6 +6,6 @@
 .vscode/ipch
 
 # main.cpp file
-.src/main.cpp
+src/main.cpp
 # Powershell scripts
 *.ps1
