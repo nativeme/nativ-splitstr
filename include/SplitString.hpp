@@ -20,7 +20,7 @@ struct StrSplitOut
  * @param split_by delimiter
  * @return StrSplitOut Vector of C style strings that auto destroyes underlying pointers.
  */
-StrSplitOut split_str(const char* char_array, const char& split_by = ' '){
+inline StrSplitOut split_str(const char* char_array, const char& split_by = ' '){
     StrSplitOut splited;
     uint16_t word_start = 0;
     uint16_t word_end = 0;
@@ -55,7 +55,7 @@ StrSplitOut split_str(const char* char_array, const char& split_by = ' '){
  * @param split_by delimiter
  * @return std::vector<String> Vector of Arduino Strings.
  */
-std::vector<String> split_str(const String& string, const char& split_by = ' '){
+inline std::vector<String> split_str(const String& string, const char& split_by = ' '){
     std::vector<String> splitted;
     String str = string;
     

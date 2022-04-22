@@ -1,6 +1,6 @@
 {
     "name": "nativ-splitstr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Personal micro library for string splitting, mainly for usage in arduino framework. Should work everywhere.",
     "keywords": "String, split, const char",
     "repository":
@@ -23,7 +23,7 @@
         [
           ".vdcode",
           "*.ps1",
-          ".src/main.cpp",
+          "src/main.cpp",
           "platformio.ini",
           ".test"
         ]
