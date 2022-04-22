@@ -1,12 +1,11 @@
 #ifndef _SPLITSTRING_HPP_
 #define _SPLITSTRING_HPP_
-#include "Arduino.h"
 
 namespace softcast{
 
 struct StrSplitOut
 : public std::vector<const char*>{
-    ~StrSplitOut(){
+    virtual ~StrSplitOut(){
         for (auto &&str_buffer : *this){
             delete[] str_buffer;
         }
